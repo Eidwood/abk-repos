@@ -1,0 +1,6 @@
+wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.xz /var/db/abk/source/
+tar xvf /var/db/abk/source/git-2.9.5.tar.xz
+cd /var/db/abk/source/git-2.9.5.tar.xz
+./configure
+make
+make install
